@@ -15,7 +15,7 @@ const providerFn = ({ theme, children }) => {
 export default {
   title: 'MUI Examples',
   component: SignUp,
-  decorators: [withThemes(null, [theme], { providerFn })],
+  decorators: [withThemes(null, [theme, theme], { providerFn })],
 };
 
 export const ToStorybook = () => <SignUp />;
