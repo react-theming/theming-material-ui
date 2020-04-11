@@ -16,5 +16,25 @@ yarn storybook
 
 [Demo](https://react-theming.github.io/theming-material-ui/)
 
-![screenshot](doc/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/react-theming/theming-material-ui/master/doc/screenshot.png)
 
+## App
+
+To launch your app type:
+```
+yarn start
+```
+
+## Credits
+
+This example is based on original MUI [templates/sign-up](https://github.com/mui-org/material-ui/tree/master/docs/src/pages/getting-started/templates/sign-up) template and extends it with Storybook and [`@react-theming/storybook-addon`](https://github.com/react-theming/storybook-addon-theming)
+
+Related projects:
+
+- https://github.com/react-theming/storybook-addon-material-ui
+- https://github.com/react-theming/create-mui-theme
+- (live) https://react-theming.github.io/create-mui-theme/
+
+<div align="left" style="height: 16px;">Created with ❤︎ to <b>React</b> and <b>Material UI</b> by <a
+    href="https://twitter.com/UsulPro">Oleg Proskurin</a> [<a href="https://github.com/react-theming">React Theming</a>]
+</div>
