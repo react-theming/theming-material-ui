@@ -13,7 +13,7 @@ const providerFn = ({ theme, children }) => {
 };
 
 export default {
-  title: '<MUI Examples',
+  title: 'MUI Examples',
   component: SignUp,
   decorators: [withThemes(null, [theme], { providerFn })],
 };
