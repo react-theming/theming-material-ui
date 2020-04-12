@@ -7,7 +7,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9009 -s public",
+    "_prestorybook": "relative-deps",
+    "storybook": "start-storybook -p 9009 -s publi --ci",
     "build-storybook": "build-storybook -s public",
     "deploy-storybook": "storybook-to-ghpages"
   },
@@ -32,12 +33,16 @@
     ]
   },
   "devDependencies": {
-    "@react-theming/storybook-addon": "^0.2.2",
+    "@react-theming/storybook-addon": "^1.0.0",
     "@storybook/addon-actions": "^5.3.18",
     "@storybook/addon-links": "^5.3.18",
     "@storybook/addons": "^5.3.18",
     "@storybook/preset-create-react-app": "^2.1.1",
     "@storybook/react": "^5.3.18",
-    "@storybook/storybook-deployer": "^2.8.5"
+    "@storybook/storybook-deployer": "^2.8.5",
+    "relative-deps": "^1.0.1"
+  },
+  "relativeDependencies": {
+    "@react-theming/storybook-addon": "../../storybook-addon-theming"
   }
 }

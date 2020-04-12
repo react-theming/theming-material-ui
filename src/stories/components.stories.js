@@ -4,7 +4,7 @@ import { ThemeProvider } from '@material-ui/core';
 import { createMuiTheme } from '@material-ui/core/styles';
 
 import SignUp from '../components/SignUp';
-import theme from '../theme';
+import { theme1, theme2 } from '../theme';
 
 const providerFn = ({ theme, children }) => {
   const serialTheme = JSON.parse(JSON.stringify(theme));
@@ -15,7 +15,7 @@ const providerFn = ({ theme, children }) => {
 export default {
   title: 'MUI Examples',
   component: SignUp,
-  decorators: [withThemes(null, [theme], { providerFn })],
+  decorators: [withThemes(null, [theme1, theme2], { providerFn })],
 };
 
 export const ToStorybook = () => <SignUp />;
