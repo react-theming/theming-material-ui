@@ -7,7 +7,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prestorybook": "relative-deps",
+    "_prestorybook": "relative-deps",
     "storybook": "start-storybook -p 9009 -s publi --ci",
     "build-storybook": "build-storybook -s public",
     "deploy-storybook": "storybook-to-ghpages"
@@ -33,7 +33,7 @@
     ]
   },
   "devDependencies": {
-    "@react-theming/storybook-addon": "^0.2.2",
+    "@react-theming/storybook-addon": "^1.0.0",
     "@storybook/addon-actions": "^5.3.18",
     "@storybook/addon-links": "^5.3.18",
     "@storybook/addons": "^5.3.18",

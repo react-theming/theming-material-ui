@@ -1452,10 +1452,10 @@
     is-color-stop "^1.1.0"
     rgb-hex "^3.0.0"
 
-"@react-theming/storybook-addon@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@react-theming/storybook-addon/-/storybook-addon-0.2.2.tgz#1891aa3442074b7f6af8cd7bbeef728df90ee45f"
-  integrity sha512-JFjwhqZQ6t5GH8iAVEg8LUlEi9JJVcE+D010ekc7E4Kl+/Ue+r5sXai2pUzxrnILjUr7CSdVqHRtyzVfEGcrng==
+"@react-theming/storybook-addon@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@react-theming/storybook-addon/-/storybook-addon-1.0.0.tgz#2ef5e2d4ba983a69e21a5614807653a28f95880e"
+  integrity sha512-G8itGmKCNhyd8ww5z4rLp6YpDyJga+F7jmoth7T0q2sctnLJlNDbYiC8Ir1u56X0kdS95aGCvv+X0TLJiZqlqw==
   dependencies:
     "@react-theming/flatten" "^0.1.1"
     "@react-theming/theme-name" "^1.0.2"
