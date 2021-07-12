@@ -1,14 +1,14 @@
 import React from 'react';
 import { withThemes } from '@react-theming/storybook-addon';
 import { ThemeProvider } from '@material-ui/core';
-import { createMuiTheme } from '@material-ui/core/styles';
+import { createTheme } from '@material-ui/core/styles';
 
 import SignUp from '../components/SignUp';
 import { theme1, theme2 } from '../theme';
 
 const providerFn = ({ theme, children }) => {
   const serialTheme = JSON.parse(JSON.stringify(theme));
-  const muTheme = createMuiTheme(serialTheme);
+  const muTheme = createTheme(serialTheme);
   return <ThemeProvider theme={muTheme}>{children}</ThemeProvider>;
 };
 
